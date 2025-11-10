@@ -41,6 +41,19 @@ const Navbar = () => {
       >
         Contact
       </NavLink>
+
+      <NavLink
+        to="/create-blog"
+        className={({ isActive }) =>
+          `rounded-md px-4 py-2 font-medium transition-colors duration-200 ${
+            isActive
+              ? "bg-blue-600 text-white shadow-md"
+              : "text-gray-700 hover:bg-blue-50 hover:text-blue-600"
+          } `
+        }
+      >
+        Create-Blog
+      </NavLink>
     </>
   );
 

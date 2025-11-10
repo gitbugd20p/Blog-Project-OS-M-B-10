@@ -1,5 +1,5 @@
 const ContactPage = () => {
-  return <div>ContactPage</div>;
+  return <div className="min-h-screen">ContactPage</div>;
 };
 
 export default ContactPage;
